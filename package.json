@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "description": "Node.js http server delivering a web page",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdm4344/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Jordan Machalek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdm4344/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/jdm4344/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
